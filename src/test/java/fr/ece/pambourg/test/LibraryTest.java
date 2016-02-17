@@ -1,4 +1,8 @@
+package fr.ece.pambourg.test;
 import org.junit.Test;
+
+import fr.ece.pambourg.main.Library;
+
 import static org.junit.Assert.*;
 
 /*
