@@ -1,0 +1,13 @@
+Pour créer le jar du projet :
+
+javapackager -createjar 
+-srcdir C:\Users\Alexis\workspace\GGJ 
+-outdir C:\Users\Alexis\Desktop 
+-outfile truc -appclass fr.ece.pambourg.main
+
+Pour déployer le projet : 
+
+javapackager -deploy 
+-srcdir C:\Users\Alexis\workspace\GGJ 
+-outdir C:\Users\Alexis\Desktop 
+-outfile truc -appclass fr.ece.pambourg.main

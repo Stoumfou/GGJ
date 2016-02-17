@@ -1,5 +1,8 @@
 package fr.ece.pambourg.test;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 import org.junit.Assert;
 import org.junit.Test;
 import fr.ece.pambourg.main.*;
@@ -10,6 +13,23 @@ public class ModelTest {
 	
 	@Test
 	public void testItems()throws Exception{
+		String language;
+        String country;
+        language = new String("en");
+        country = new String("US");
+
+        Locale currentLocale;
+        ResourceBundle messages;
+
+        currentLocale = new Locale(language, country);
+
+        messages = ResourceBundle.getBundle("dictionary", currentLocale);
+        System.out.println(messages.getString("welcome_text"));
+        
+		
+		
+		
+		
 		Model m = new Model();
 		ObservableList<String> compareM = FXCollections.observableArrayList();
 		
