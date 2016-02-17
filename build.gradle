@@ -12,6 +12,14 @@ apply plugin: 'java'
 apply plugin : 'application'
 mainClassName = "fr.ece.pambourg.main"
 
+jar {
+baseName "GGJ"
+version "0.0.1"
+from sourceSets.main.allJava
+manifest {
+attributes "Main-Class": "$mainClassName"}
+}
+
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use 'jcenter' for resolving your dependencies.
