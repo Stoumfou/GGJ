@@ -19,4 +19,16 @@ public class Model {
 		return obs;
 		
 	}
+	public String toString()
+	{
+		return obs.toString();
+	}
+	public ObservableList<String> getObs() {
+		return obs;
+	}
+	public void setObs(ObservableList<String> obs) {
+		this.obs = obs;
+	}
+	
+	
 }
