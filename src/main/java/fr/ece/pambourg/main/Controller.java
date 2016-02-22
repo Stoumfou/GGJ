@@ -2,9 +2,6 @@ package fr.ece.pambourg.main;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.Set;
-
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
