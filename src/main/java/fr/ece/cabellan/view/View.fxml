@@ -1,21 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<classpath>
-	<classpathentry kind="src" path="src/main/java">
-		<attributes>
-			<attribute name="FROM_GRADLE_MODEL" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="src" path="src/test/java">
-		<attributes>
-			<attribute name="FROM_GRADLE_MODEL" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
-=======
 
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
@@ -29,4 +12,3 @@
       <Button layoutX="223.0" layoutY="1.0" mnemonicParsing="false" text="Ajouter" onAction="#addList" />
    </children>
 </AnchorPane>
->>>>>>> master
