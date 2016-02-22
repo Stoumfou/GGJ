@@ -25,10 +25,6 @@ public class ModelTest {
 
         messages = ResourceBundle.getBundle("dictionary", currentLocale);
         System.out.println(messages.getString("welcome_text"));
-        
-		
-		
-		
 		
 		Model m = new Model();
 		ObservableList<String> compareM = FXCollections.observableArrayList();
