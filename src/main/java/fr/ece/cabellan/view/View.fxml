@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <classpath>
 	<classpathentry kind="src" path="src/main/java">
 		<attributes>
@@ -14,3 +15,18 @@
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
+=======
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="251.0" prefWidth="281.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="fr.ece.pambourg.main.Controller">
+   <children>
+      <ListView layoutY="29.0" prefHeight="222.0" prefWidth="281.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="29.0" fx:id="myList" />
+      <TextField layoutY="1.0" prefHeight="26.0" prefWidth="223.0" fx:id="myText" />
+      <Button layoutX="223.0" layoutY="1.0" mnemonicParsing="false" text="Ajouter" onAction="#addList" />
+   </children>
+</AnchorPane>
+>>>>>>> master
